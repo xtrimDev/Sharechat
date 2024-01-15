@@ -1,0 +1,83 @@
+.searchbar{
+    width: 70%;
+    height: 37px;
+    padding: 7px 30px;
+    border-radius: 18px 0px 0px 18px;
+    /* margin: 9px 2px; */
+    border: none;
+    outline: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 17px;
+    margin: 19px 0px 2px 10px;
+}
+
+.notificationContainer {
+    background-color: #fff;
+    width: 700px;
+    margin: 2rem 2rem 2rem 30%;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.notificationHeader {
+    display: flex;
+    align-items: center;
+}
+
+#num-of-notif {
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+}
+
+#mark-as-read {
+    color: gray;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+#mark-as-read:hover {
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.notificationCard {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.notificationCard img{
+    width: 50px;
+}
+
+.notificationCard .description {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.unread {
+    background-color: bisque;
+}

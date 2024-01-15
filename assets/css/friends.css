@@ -1,0 +1,354 @@
+
+/* ----------------------------------------complete page css--------------------------------- */
+.page1 {
+  display: flex;
+  margin-top: 70px;
+}
+
+
+/* -----------------------------------------------middle face------------------------------------------ */
+
+.middle1 {
+  background-color: var(--main);
+  /*padding-left: 25%;*/
+  width: 71%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  background-color: var(--main);
+  height: 140px;
+  width: 76px;
+  margin: 20px 10px;
+  border-radius: 21px;
+}
+.comment {
+  display: flex;
+
+  background-color: white;
+  border-radius: 12px 12px 0px 0px;
+}
+.commentimage {
+  height: 40px;
+  width: 45px;
+  border-radius: 28px;
+  margin: 11px 12px;
+  cursor: pointer;
+}
+.commenttext {
+  color: var(--main);
+  border: none;
+  padding: 22px 2px 65px 2px;
+  outline: none;
+  font-size: 16px;
+}
+
+.commentbutton {
+  display: block;
+
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 6px 19px;
+  font-size: 17px;
+  border-radius: 23px;
+  margin: 8px 20px;
+  cursor: pointer;
+}
+.commentbutton:hover {
+  background-color: #0a1852;
+}
+
+.box111 {
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 0px 0px 12px 12px;
+  margin-bottom: 10px;
+}
+
+.friendsimg {
+  height: 40px;
+  width: 45px;
+  border-radius: 28px;
+  cursor: pointer;
+}
+.name {
+  font-size: 17px;
+  margin: 7px 18px;
+  cursor: pointer;
+}
+.name:hover {
+  color: blue;
+  transition-duration: 600ms;
+}
+/* .cardbox {
+    padding-left: 15%;
+    
+} */
+.card1 {
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  /*text-align: center;*/
+}
+.cardtop {
+  display: flex;
+  margin: 11px 12px;
+}
+.cardimg {
+  width: 627px;
+  height: 300px;
+  margin: 5px 11px;
+}
+
+.cardsubtitle {
+  margin: 3px 12px;
+  font-size: 22px;
+  color: rgb(114, 88, 88);
+  font-size: 16px;
+  float: left;
+  margin-left: 10%;
+}
+
+.icons {
+  display: inline-block;
+}
+.icons img {
+  height: 30px;
+  cursor: pointer;
+}
+.comments {
+  display: flex;
+}
+
+.shareicon {
+  margin: 4px 480px 4px 4px;
+}
+.likeicon,
+.saveicon,
+.commenticon {
+  margin: 4px 9px;
+}
+.likescount {
+  margin: 3px 12px;
+  float: left;
+  margin-left: 10%;
+}
+@media screen and (max-width: 1225px) {
+  .middle1 {
+    margin-left: 19%;
+  }
+  .reqbox {
+    width: 140%;
+  }
+}
+.reqbox {
+  width: 120%;
+}
+@media screen and (min-width: 1650px) {
+  .cardsubtitle {
+    margin-left: 18%;
+  }
+  .likescount {
+    margin-left: 18%;
+  }
+}
+.comments h3 {
+  margin: 3px 12px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.comments p {
+  margin: 5px 0px;
+  font-size: 13px;
+}
+
+/* ------------------------------------right face----------------------------------------------- */
+
+.right1 {
+  background-color: #010410;
+  width: 25%;
+}
+/* 
+.msgtop{
+    border-bottom: 2px solid #E4E4E3;
+    display: flex;
+    justify-content: center;
+} */
+.writeicon {
+  width: 30px;
+  width: 30px;
+  margin: 10px 20px 6px 0px;
+  cursor: pointer;
+}
+.msgname {
+  margin: 16px 90px 0px 20px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 22px;
+}
+
+.msgbox {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+.msgbox:hover {
+  background-color: antiquewhite;
+}
+
+.msgimg2 img {
+  width: 40px;
+  margin: 5px 20px;
+  padding: 6px 2px;
+  height: 40px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.msgername {
+  color: var(--text);
+  text-decoration: none;
+  margin: 14px 2px 2px 2px;
+  font-size: 16px;
+}
+.msgby {
+  color: rgb(87, 85, 85);
+  text-decoration: none;
+  margin: 0px 0px 6px 2px;
+  font-size: 13px;
+}
+
+.msg222 {
+  display: flex;
+  flex-direction: column;
+}
+.requesttop {
+  border-bottom: 2px solid #e4e4e3;
+  display: flex;
+  justify-content: left;
+  padding: 15px 20px;
+}
+.requesttop span {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--main);
+}
+
+.reqname {
+  color: var(--main);
+  text-decoration: none;
+  margin: 14px 2px 2px 2px;
+  font-size: 19px;
+}
+
+.reqimg2 img {
+  width: 72px;
+  margin: 5px 9px;
+  padding: 6px 2px;
+  height: 84px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+.frie-h {
+    color: white;
+    margin: 20px;
+}
+.friends-container{
+   background-color: var(--main);
+   display: grid;
+   grid-template-columns: repeat(4,1.4fr);
+   gap: 1rem;
+  
+
+}
+.reqbox {
+  display: flex;
+  flex-basis: 50%;
+  /*width: 100%;*/
+  width: 193px;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid var(--border);
+}
+
+.reqbox2{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.reqbox:hover {
+  background-color: antiquewhite;
+}
+.reqbtns button {
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin: 7px 2px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  background: white;
+  color: var(--text);
+}
+.accept:hover {
+  color: white;
+  background-color: darkgreen;
+}
+.reject:hover {
+  color: var(--text);
+
+  background-color: red;
+}
+
+.pumk{
+
+}
+
+.pumk h1{
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.pumk .search{
+  display: flex;
+  width: 124%;
+  align-items: center;
+  justify-content: center;
+}
+
+.pumk .search input{
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.pumk .search button{
+
+  font-size: 1rem;
+  padding: 0.85rem;
+  /* margin-left: 0.5rem; */
+  background: white;
+  font-size: 1.25rem;
+  border: none;
+  border-left: 1px solid;
+  outline: none;
+  border-radius: 0 20px 20px 0;
+      
+}

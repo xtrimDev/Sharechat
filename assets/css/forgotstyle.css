@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+html,
+body {
+  background-image: linear-gradient(142deg, #9861c2, #5cc0de);
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+.forgot_container {
+  min-width: 1140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.forgot_container .form {
+  background: #fff;
+  padding: 30px 35px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.forgot_container .form form .form-control {
+  height: 40px;
+  font-size: 15px;
+}
+.forgot_container .form form .forget-pass {
+  margin: -15px 0 15px 0;
+}
+.forgot_container .form form .forget-pass a {
+  font-size: 15px;
+}
+.forgot_container .form form .button {
+  background: #512da8;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+input.error{
+  border: 2px solid red;
+}
+.button:disabled {
+  cursor: default;
+  opacity: 0.8;
+}
+input.form-control {
+  background-color: #eee !important;
+  border: none !important;
+}
+input.form-control:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+}
+input.form-control.error{
+  border: 1px solid red !important;
+}
+label.error {
+  display: none !important;
+}
+.forgot_container .form form .link {
+  padding: 5px 0;
+}
+.forgot_container .form form .link a {
+  color: #6665ee;
+}
+.forgot_container .login-form form p {
+  font-size: 14px;
+}
+.forgot_container .row .alert {
+  font-size: 14px;
+}
+
+.forgot_container .form form .button a{
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+  }
+
+.error_msg,.error_reg_msg {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #990000;
+  font-weight: lighter;
+  font-size: 13px;
+  line-height: 1.42857143;
+  width: 100%;
+}
+
+.msg_danger {
+  background-image: linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%);
+  background-repeat: repeat-x;
+  border-color: #dca7a7;
+  text-shadow: 0 1px 0 rgba(255,255,255,.2);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1px 2px rgba(0,0,0,.05);
+  color: #a94442;
+  background-color: #f2dede;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
