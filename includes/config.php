@@ -11,11 +11,11 @@ if (!defined('SITE_NAME')) {
 }
 
 if (!defined('SITE_OWNER')) {
-    define('SITE_OWNER', 'WebDev Community');
+    define('SITE_OWNER', '@WebDev Community');
 }
 
 if (!defined('SITE_DESIGNER')) {
-    define('SITE_DESIGNER', 'WebDev Community');
+    define('SITE_DESIGNER', '@WebDev Community');
 }
 
 if (!defined('SITE_PUBLISHED_YEAR')) {
@@ -27,26 +27,26 @@ if (!defined('LOGO_URL')) {
 }
 
 if (!defined('SMTP_EMAIL')) {
-    define('SMTP_EMAIL', 'bhandarisameer512@gmail.com');
+    define('SMTP_EMAIL', '');
 }
 
 if (!defined('SMTP_PASSWORD')) {
-    define('SMTP_PASSWORD', 'shuqarukimqsjucq');
+    define('SMTP_PASSWORD', '');
 }
 
 if (!defined('DBHOST')) {
-    define('DBHOST', 'localhost');
+    define('DBHOST', '');
 }
 
 if (!defined('DBUSER')) {
-    define('DBUSER', 'root');
+    define('DBUSER', '');
 }
 
 if (!defined('DBPASS')) {
     define('DBPASS', '');
 }
 if (!defined('DBNAME')) {
-    define('DBNAME', 'sharechat');
+    define('DBNAME', '');
 }
 
 /** This class manage all default files for the admin panel. */
