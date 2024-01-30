@@ -2,6 +2,3 @@
 2: In includes/config.php file change database configuration.<br>
 3: Upload sql file in database.<br>
 That's All.<br>
-
-
-**Note :- for sql file contact admin or email bhandarisameer512@gmail.com
