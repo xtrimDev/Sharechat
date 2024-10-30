@@ -18,11 +18,11 @@ Developed a dynamic social media web application allowing users to connect with 
 
 ### 1. [Infinity free](https://www.infinityfree.com/)
 
+
 ## Database Configuration File
 ```path
   /sharechat.sql
 ```
-
 ## App Configuration
 ```path
   /includes/config.php
@@ -80,4 +80,4 @@ if (!defined('DBNAME')) {
 - Edit Profile
 
 ## Credits
-[xtrimDev](https://github.com/xtrimDev/)
+- [xtrimDev](https://github.com/xtrimDev/)
