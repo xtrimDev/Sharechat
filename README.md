@@ -9,37 +9,75 @@
     <img src="https://img.shields.io/github/license/xtrimDev/Sharechat?style=for-the-badge&color=green" alt="License">
     <img src="https://img.shields.io/github/repo-size/xtrimDev/Sharechat?style=for-the-badge&color=yellow" alt="Repository Size">
     <img src="https://img.shields.io/github/contributors/xtrimDev/Sharechat?style=for-the-badge&color=green" alt="Contributors">
-    <img src="https://img.shields.io/github/issues/xtrimDev/Sharechat?style=for-the-badge&color=yellow" alt="Issues">
 </p>  
 
-# Description
+## Description
 Developed a dynamic social media web application allowing users to connect with friends, share posts, like content, engage in real-time chat, and save favorite posts. Features include an intuitive user interface, secure user authentication, and seamless interaction for enhanced social engagement. This project showcases full-stack development expertise and the ability to create a scalable, user-friendly platform.
-
-## WHAT CAN THIS BOT DO
-Is it a nuisance to send huge files to others? File To Link Bot is for you.This bot will help you to provide shorten links for different types of files you send.
 
 ## Deployment Methods
 
-### Heroku
+### 1. [Infinity free](https://www.infinityfree.com/)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xtrimDev/Sharechat)
-
-## Config Vars
-1. `BOT_TOKEN` : A Valid Telegram Bot Token, get it from @Botfather
-
-## HOW TO USE THIS BOT
-
+## Database Configuration File
+```path
+  /sharechat.sql
 ```
-- You can send any type of files (Video, Image, Audio, Document) to this bot.
-- Bot will send a shorten link of that file to you.
+
+## App Configuration
+```path
+  /includes/config.php
 ```
+```php
+if (!defined('SITE_NAME')) {
+    define('SITE_NAME', 'YOUR APP NAME');
+}
+
+if (!defined('SITE_OWNER')) {
+    define('SITE_OWNER', '@xtirmDev');
+}
+
+if (!defined('SITE_DESIGNER')) {
+    define('SITE_DESIGNER', '@xtrimDev');
+}
+
+if (!defined('SITE_PUBLISHED_YEAR')) {
+    define('SITE_PUBLISHED_YEAR', '2023');
+}
+
+if (!defined('LOGO_URL')) {
+    define('LOGO_URL', '/assets/img/logo.png');
+}
+
+if (!defined('SMTP_EMAIL')) {
+    define('SMTP_EMAIL', 'SMTP EMAIL');
+}
+
+if (!defined('SMTP_PASSWORD')) {
+    define('SMTP_PASSWORD', 'SMTP PASS');
+}
+
+if (!defined('DBHOST')) {
+    define('DBHOST', 'YOUR MYSQL HOST');
+}
+
+if (!defined('DBUSER')) {
+    define('DBUSER', 'YOUR MYSQL USER');
+}
+
+if (!defined('DBPASS')) {
+    define('DBPASS', 'YOUR MYSQL PASSWORD');
+}
+if (!defined('DBNAME')) {
+    define('DBNAME', 'YOUR MYSQL DB NAME');
+}
+```
+
+## Features
+
+- Live Chat
+- Upload and see others posts
+- Bookmark Posts
+- Edit Profile
+
 ## Credits
-- [TeLe TiPs](https://github.com/teletips)
-
-## Friendly Warning
-
-- You are free to use this code in any of your projects, but you MUST include the following in your README.md (Copy & paste)
-```
-##Credits
-- [File To Link Telegram bot by TeLe TiPs] (https://github.com/xtrimDev/Sharechat)
-```
+[xtrimDev](https://github.com/xtrimDev/)
